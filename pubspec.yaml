@@ -19,7 +19,11 @@ dependencies:
     sdk: flutter
   flutter_compass: ^0.8.0
   flutter_map: ^7.0.0
-  geolocator: ">=12.0.0 <14.0.0"
+  geolocator:
+    git:
+      url: https://github.com/amxDusT/flutter-geolocator.git
+      ref: main
+      path: geolocator
   latlong2: ^0.9.1
 
 dev_dependencies:
